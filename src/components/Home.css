@@ -1,0 +1,53 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Light Background */
+
+    background-image: url("./bg.jpg");
+    background-size:98%;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+ }
+  
+  /* Inner Content */
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    width: 90%;
+    padding: 20px;
+  }
+  
+  /* Left Side: Name & Title */
+  .text-content {
+    text-align: left;
+  }
+  .name {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #00c2cc;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #00ccc2;
+  }
+  
+  /* Right Side: Image */
+  .image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 80%; /* Circle Shape */
+    border: 8px solid #00ccad; /* Blue Border */
+    object-fit: cover;
+  }  
